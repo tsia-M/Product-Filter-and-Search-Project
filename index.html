@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter and Search Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="search-wrapper">
+      <input class="js-search-input search-input" type="search" placeholder="Search product name here...">
+      <button class="js-search-button search-button" type="button">Search</button>
+    </div>
+
+    <div class="category-wrapper">
+      <div class="js-all-button">All</div>
+      <div class="js-topwear-button">Topwear</div>
+      <div class="js-bottomwear-button">Bottomwear</div>
+      <div class="js-jacket-button">Jacket</div>
+      <div class="js-watch-button">Watch</div>
+    </div>
+
+    <div class="dropdown-container">
+    <button type="button" class="js-toggle-button toggle-button">
+      Category
+      <i class="fa-solid fa-chevron-down chevron-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="js-all-button">All</div>
+      <div class="js-topwear-button">Topwear</div>
+      <div class="js-bottomwear-button">Bottomwear</div>
+      <div class="js-jacket-button">Jacket</div>
+      <div class="js-watch-button">Watch</div>
+    </div>
+  </div>
+
+    <div class="js-products-container products-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
