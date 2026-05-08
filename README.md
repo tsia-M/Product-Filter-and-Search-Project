@@ -22,4 +22,4 @@ A responsive e-commerce style product filtering application built with HTML, CSS
 - Dynamic rendering
 
 ## Live Demo
-https://tsia-m.github.io/Product-Filter-and-Search-Project/
+https://tsia-m.github.io/product-filter-search/
